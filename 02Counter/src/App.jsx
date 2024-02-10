@@ -13,7 +13,9 @@ function App() {
     if(counter === 20){
       alert("Maximum value is 20")
     }else{
-      setCounter(counter + 1)
+      setCounter((prevCounter)=> prevCounter + 1)
+      setCounter((prevCounter)=> prevCounter + 1)
+      setCounter((prevCounter)=> prevCounter + 1)
     }
   }
 
