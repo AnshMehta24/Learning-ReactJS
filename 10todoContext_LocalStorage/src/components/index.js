@@ -1,4 +1,4 @@
 import ToDoForm from "./ToDoForm";
 import ToDoItem from "./ToDoItem";
 
-export {ToDoForm, ToDoForm} ;
+export {ToDoForm, ToDoItem} ;
