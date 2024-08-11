@@ -16,7 +16,7 @@ function Navbar() {
 
   return (
     <nav className="w-[15%] h-screen bg-slate-900 flex flex-col items-center">
-    <a href="#" className="text-white p-4 mt-2 mb-3 rounded" style={{border: '2px solid white'}}>Add Peoduct</a>
+    <Link to="/addproduct"  className="text-white p-4 mt-2 mb-3 rounded" style={{border: '2px solid white'}}>Add Peoduct</Link>
 
     <hr className="w-[80%]" />
 
